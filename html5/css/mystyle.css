@@ -1,0 +1,161 @@
+body {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    line-height:150%;
+    color: #3c3c3c;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #3c3c3c;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #f3cba5;
+}
+
+a:hover h1 {
+    color: #da9c8f;
+
+}
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+header {
+    height: 450px;
+    background: url('../img/bg.jpg') center ;
+    position: relative;
+}
+
+nav {
+    background: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right:0;
+}
+
+nav ul {
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: #3c3c3c;
+}
+
+nav ul li a:hover {
+    color: #da9c8f;
+}
+
+.content section article button {
+   text-align: right;
+}
+
+aside section {
+    border: 2px solid #db8689;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form__search {
+    position: relative;
+}
+
+.form__search input {
+    padding: 5px;
+    width: 286px;
+}
+
+.form__search input:focus {
+    border: 1px solid #db8689;
+}
+
+aside input {
+
+}
+
+aside button {
+    background: #db8689;
+    color: #fff;
+    padding: 5px 8px;
+    border: 1px solid #db8689;
+}
+
+.content {
+    margin: 50px 0;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article .article__tags a {
+    color: #8a8662;
+}
+article .article__body {
+    margin: 15px 0;
+}
+
+article .article__body p {
+    margin-bottom: 10px;
+}
+
+article .article__footer {
+    text-align: right;
+}
+
+article .article__footer button {
+    background: #cd8e3e;
+    color: #fff;
+    border: none;
+    padding: 5px 7px;
+}
+
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    background: #db8689;
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+}
+
+footer .socialmedia {
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+footer .socialmedia a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+footer .socialmedia a:hover {
+    color: #f3cba5;
+}
+
+.aside__categories ul {
+    margin-left: 20px;
+}
