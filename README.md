@@ -4,6 +4,7 @@
 -----------------
 ## Navigatie
 * [html5 template](html5)
+* [Drupal 7 & 8 site](d7)
 
 ----------------
 * Opleidingsonderdeel: Crossmedia Publishing III
